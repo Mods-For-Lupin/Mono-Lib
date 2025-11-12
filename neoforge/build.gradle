@@ -3,6 +3,20 @@ plugins {
     id 'net.neoforged.moddev'
 }
 
+dependencies {
+    implementation 'maven.modrinth:dis-enchanting-table:5.1.1-neoforge,1.21.10'
+    implementation 'maven.modrinth:auto-message:3.0.0-neoforge,1.21.10'
+    implementation 'maven.modrinth:longer-following-time:1.1.0-neoforge,1.21.10'
+    implementation 'maven.modrinth:more-beautiful-torches:3.0.0-neoforge,1.21.10'
+
+    // TODO lower MonoLib version to 3.X.0?
+    // built against an invalid version number of MonoLib (does not allow 4+)
+    // implementation 'maven.modrinth:golden-foods:2.4.0-neoforge,1.21.10'
+
+    // modrinth project still under review
+    // implementation 'maven.modrinth:unlocked-typing:1.0.0-neoforge,1.21.10'
+}
+
 neoForge {
     version = neoforge_version
     // Automatically enable neoforge AccessTransformers if the file exists
