@@ -49,10 +49,6 @@ dependencies {
     compileOnly project(":common")
     annotationProcessor("org.spongepowered:mixin:0.8.5-SNAPSHOT:processor")
 
-    // curios (dependency for Ender Pack)
-    modImplementation "curse.maven:curios-309927:6418456"
-    modImplementation "curse.maven:enderpack-959446:6200716"
-
     modImplementation "curse.maven:unlocked-typing-1373339:7206217"
     modImplementation "curse.maven:golden-foods-873866:5860674"
     modImplementation "curse.maven:more-beautiful-torches-860325:5263631"
@@ -71,6 +67,9 @@ dependencies {
     modImplementation "curse.maven:more-beautiful-bookshelves-846508:4671697"
     modImplementation "curse.maven:healthy-water-921753:5980643"
     modImplementation "curse.maven:more-useful-copper-2-0-983503:6020408"
+    // curios (dependency for Ender Pack)
+    modImplementation "curse.maven:curios-309927:6418456"
+    modImplementation "curse.maven:enderpack-959446:6200716"
 
     // does not support old and new Forge constructor
     // modImplementation "curse.maven:danger-close-858922:6433614"
