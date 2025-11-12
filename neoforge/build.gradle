@@ -3,9 +3,38 @@ plugins {
     id 'net.neoforged.moddev'
 }
 
-//dependencies {
-//    implementation 'maven.modrinth:dis-enchanting-table:5.0.2-neoforge,1.21.1'
-//}
+dependencies {
+
+    implementation 'maven.modrinth:golden-foods:2.4.0-neoforge,1.21.1'
+    implementation 'maven.modrinth:new-slab-variants:3.0.1-neoforge,1.21.1'
+    implementation 'maven.modrinth:animal-armor-trims:2.0.0-neoforge,1.21.1'
+    implementation 'maven.modrinth:new-shield-variants:2.0.0-neoforge,1.21.1'
+    implementation 'maven.modrinth:more-useful-copper:2.0.0-neoforge,1.21.1'
+    implementation 'maven.modrinth:eat-an-omelette:1.5.0-neoforge,1.21.1'
+    implementation 'maven.modrinth:mob-drops-recipes-overworld:2.1.0-neoforge,1.21.1'
+    implementation 'maven.modrinth:mob-drops-recipes-nether:2.1.1-neoforge,1.21.1'
+    implementation 'maven.modrinth:mob-drops-recipes-end:2.1.0-neoforge,1.21.1'
+    implementation 'maven.modrinth:healthy-water:1.0.1-neoforge,1.21.1'
+    implementation 'maven.modrinth:longer-following-time:1.1.0-neoforge,1.21.1'
+    implementation 'maven.modrinth:project-summons:0.2.0-neoforge,1.21.1'
+
+    // needed String getGameDirectory from platform service, should use Path
+    // implementation 'maven.modrinth:stackable-stew-and-soup:2.0.1-neoforge,1.21.1'
+    // implementation 'maven.modrinth:more-beautiful-torches:3.0.0-neoforge,1.21.1'
+    // implementation 'maven.modrinth:time-on-display:2.0.0-neoforge,1.21.1'
+
+    // built against a later version of neoforge
+    // implementation 'maven.modrinth:auto-message:3.0.0-neoforge,1.21.1'
+    // implementation 'maven.modrinth:dis-enchanting-table:5.0.2-neoforge,1.21.1'
+    // implementation 'maven.modrinth:more-bows-and-arrows:5.0.1-neoforge,1.21.1'
+    // implementation 'maven.modrinth:danger-close:3.1.3-neoforge,1.21.1'
+    // // curios (dependency for Ender Pack)
+    // implementation 'maven.modrinth:curios:9.5.1+1.21.1-neoforge,1.21.1'
+    // implementation 'maven.modrinth:enderpack:2.2.0-neoforge,1.21.1'
+
+    // modrinth project still under review
+    // implementation 'maven.modrinth:unlocked-typing:1.0.0-neoforge,1.21.1'
+}
 
 neoForge {
     version = neoforge_version
